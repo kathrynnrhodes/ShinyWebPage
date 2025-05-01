@@ -5,7 +5,7 @@ My projects use LOTS of animal behavior assessments to investigate motor and cog
 
 This Shiny app allows an individual to upload their own balance beam results (in a similar format to the way I have in the "C57_p14_Balance_Beam.csv" CSV used as an example to make the app) for easy data visualization and statistical analysis. This is helpful for me because now I can optimize what I would have performed in Excel to generate a bar graph, label it, add error bars, and include individual data points wth the click of a few buttons! Additionally, users can choose how they would like to view this data (violin plots, boxplots, etc.) and control what statistical analysis they would like to perform. Want to see if there is a significant difference in the observances recorded between sexes? Easy peasy! Just want to see if there is a significant difference between treatment groups? Also easy. 
 
-The "Requirements" script includes all the packages a user will need in order to run this app. If you choose to not clone down the repository and run these within your own RStudio, I have also published this through shinyapps.io and configuring my account to my own RStudio. 
+The "dependencies" script includes all the packages a user will need in order to run this app. It's got a function that will check your library to see if you have all the packages, and will auto install the missing ones. If you choose to not clone down the repository and run these within your own RStudio, I have also published this through shinyapps.io and configuring my account to my own RStudio. 
 
 Copy this link into your browser: https://on8ihp-kathrynnrhodes.shinyapps.io/MouseBalanceBeamAssessment/
 Happy balance beam assessment :)
